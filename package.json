@@ -1,0 +1,15 @@
+{
+  "name": "postmarks-browser-extension",
+  "version": "1.0.0",
+  "description": "A browser extension for Postmarks.",
+  "main": "background.js",
+  "scripts": {
+    "start:firefox": "web-ext run --source-dir ./"
+  },
+  "author": "Andy Piper",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "7.10.0"
+  },
+  "dependencies": {}
+}

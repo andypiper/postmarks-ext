@@ -9,4 +9,4 @@ WIP. It sort of works.
 - As yet [unpackaged](https://github.com/andypiper/postmarks-ext/issues/1)
 - fragile
 
-
+Related: [Add to Postmarks](https://routinehub.co/shortcut/16547/) Apple Shortcut

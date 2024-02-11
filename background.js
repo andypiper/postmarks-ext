@@ -2,7 +2,7 @@ chrome.runtime.onInstalled.addListener(function () {
   chrome.contextMenus.create({
     id: "addBookmark",
     title: "Add to Postmarks",
-    contexts: ["page"]
+    contexts: ["page", "link"]
   });
 });
 

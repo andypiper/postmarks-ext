@@ -1,9 +1,14 @@
 {
   "manifest_version": 3,
+  "author": "Andy Piper",
   "name": "Postmarks Helper",
-  "version": "1.0",
+  "version": "1.1",
   "description": "A browser extension to send web pages to Postmarks.",
-  "permissions": ["activeTab", "contextMenus", "storage"],
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage"
+  ],
   "background": {
     "service_worker": "background.js"
   },
@@ -12,12 +17,17 @@
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
-    }
+    },
+    "default_title": "Postmarks Helper"
   },
-  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
-  }
+  },
+  "homepage_url": "https://github.com/andypiper/postmarks-ext"
 }
